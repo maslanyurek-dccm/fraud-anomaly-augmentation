@@ -1,0 +1,16 @@
+# Datasets are NOT redistributed (see data/README.md)
+data/*.csv
+data/*.zip
+# Local reproduction outputs
+results_repro/
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
