@@ -3,10 +3,15 @@ message: "If you use this code or these results, please cite the accompanying ar
 title: "Reassessing Unsupervised Anomaly Augmentation for Fraud Detection: The Roles of Distribution Shift, Learner Instability, and Run-to-Run Variability (code and results)"
 authors:
   - family-names: "Aslanyürek"
+    given-names: "Canan"
+    affiliation: "Kırklareli University, Pınarhisar Vocational School, Department of Computer Technologies"
+    orcid: "https://orcid.org/0000-0001-7513-9953"
+  - family-names: "Aslanyürek"
     given-names: "Murat"
     affiliation: "Kırklareli University, Pınarhisar Vocational School, Department of Computer Technologies"
     orcid: "https://orcid.org/0000-0002-3296-4395"
 version: "1.0.0"
 date-released: "2026-09-26"
+doi: 10.5281/zenodo.22977319
 license: MIT
 repository-code: "https://github.com/maslanyurek-dccm/fraud-anomaly-augmentation"
