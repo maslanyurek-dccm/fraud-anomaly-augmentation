@@ -1,0 +1,62 @@
+{
+  "args": {
+    "dataset": "cc",
+    "data": "creditcard.csv",
+    "data_dir": ".",
+    "out": "results\\revision\\exp21_cc",
+    "replicates": null,
+    "quick": false
+  },
+  "origins": {
+    "O1": [
+      0.45,
+      0.55,
+      0.7
+    ],
+    "O2": [
+      0.55,
+      0.65,
+      0.8
+    ],
+    "O3": [
+      0.6,
+      0.8,
+      1.0
+    ]
+  },
+  "settings": [
+    [
+      "lgbm",
+      "orig"
+    ],
+    [
+      "lgbm",
+      "bagged"
+    ],
+    [
+      "lgbm",
+      "bag_hess"
+    ],
+    [
+      "xgb",
+      "orig"
+    ],
+    [
+      "xgb",
+      "bagged"
+    ]
+  ],
+  "configs": [
+    "M0",
+    "noise_normal",
+    "M2_pct"
+  ],
+  "replicates": 20,
+  "python": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "lightgbm": "4.7.0",
+  "xgboost": "3.2.0",
+  "sklearn": "1.8.0",
+  "numpy": "2.4.3",
+  "pandas": "3.0.1"
+}

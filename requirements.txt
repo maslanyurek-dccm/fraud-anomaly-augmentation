@@ -1,4 +1,4 @@
-# Versions used to produce the results in this repository (Python 3.14)
+# Versions used for the published results (Python 3.14)
 numpy==2.4.3
 pandas==3.0.1
 scikit-learn==1.8.0
@@ -6,3 +6,5 @@ lightgbm==4.7.0
 xgboost==3.2.0
 scipy
 matplotlib
+# only needed for experiments/legacy/experiment_14_shap_consensus.py
+shap

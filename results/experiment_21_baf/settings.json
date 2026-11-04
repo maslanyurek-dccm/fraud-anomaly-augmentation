@@ -1,0 +1,85 @@
+{
+  "args": {
+    "dataset": "baf",
+    "data": "creditcard.csv",
+    "data_dir": ".",
+    "out": "results\\revision\\exp21_baf",
+    "replicates": null,
+    "quick": false
+  },
+  "origins": {
+    "O1": [
+      [
+        0,
+        1,
+        2
+      ],
+      3,
+      4
+    ],
+    "O2": [
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      4,
+      5
+    ],
+    "O3": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      5,
+      6
+    ],
+    "O4": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      6,
+      7
+    ]
+  },
+  "settings": [
+    [
+      "lgbm",
+      "orig"
+    ],
+    [
+      "lgbm",
+      "bagged"
+    ],
+    [
+      "xgb",
+      "orig"
+    ],
+    [
+      "xgb",
+      "bagged"
+    ]
+  ],
+  "configs": [
+    "M0",
+    "noise_normal",
+    "M2_pct"
+  ],
+  "replicates": 5,
+  "python": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "lightgbm": "4.7.0",
+  "xgboost": "3.2.0",
+  "sklearn": "1.8.0",
+  "numpy": "2.4.3",
+  "pandas": "3.0.1"
+}
